@@ -11,7 +11,7 @@ spring:
     config:
       name: gameplatform-gateway #Git上配置文件名称前缀
       discovery:
-        enabled: true
+        enabled: false
         service-id: GAMEPLATFORM-CONFIG  # 注册中心的服务名
       profile: dev  # 指定配置文件的环境
     gateway: #网关路由配置
